@@ -25,6 +25,9 @@ module.exports = {
     "import",
   ],
   rules: {
-    quotes: ["error", "double"],
+    "quotes": ["error", "double"],
+    "object-curly-spacing": "off",
+    "indent": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
   },
 };
